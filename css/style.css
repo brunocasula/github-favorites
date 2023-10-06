@@ -65,6 +65,7 @@ header h1 {
   border: 1px solid #ccc;
   border-radius: .4rem 0 0 .4rem;
   padding: 0 .8rem;
+  outline-color: var(--primary-color);
 }
 
 .search button {
@@ -149,4 +150,6 @@ td .remove {
   border: none;
 
   color: tomato;
+
+  cursor: pointer;
 }
